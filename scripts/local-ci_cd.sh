@@ -4,7 +4,6 @@ yarn unit-test && yarn check-deps && yarn lint;
 if [ $? -eq 1 ]; then # if script succeeded
     echo "\n---== Code quality check failed ==---\n";
 else
-    echo "code is = "
     echo $?
     cd /Users/Mikhail_Proshin/work/shop-react-redux-cloudfront/
     rm -rf ./dist;

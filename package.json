@@ -13,7 +13,8 @@
     "commitlint": "npx commitlint --edit",
     "unit-test": "npx jest",
     "check-deps": "yarn audit",
-    "sonarqube": "sonar-scanner"
+    "sonarqube": "sonar-scanner",
+    "local-ci-cd": "./scripts/local-ci_cd.sh"
   },
   "private": true,
   "dependencies": {
