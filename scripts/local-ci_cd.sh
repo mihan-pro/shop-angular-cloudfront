@@ -13,5 +13,5 @@ else
     # transfer data
     scp -r /Users/Mikhail_Proshin/work/shop-react-redux-cloudfront/dist ubuntu@13.53.61.166:/var/www/html
     # run new version
-    ssh ubuntu@13.53.61.166 'pm2 start ./nestjs-rest-api/dist/main.js; sudo systemctl restart nginx;'
+    ssh ubuntu@13.53.61.166 'sudo systemctl restart nginx;'
 fi
